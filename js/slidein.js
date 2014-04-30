@@ -5,7 +5,7 @@ var endSlideinFoxkeh = function(){
 
 var startSlideinFoxkeh = function(){
 	var foxkeh = document.querySelector("#slidein-foxkeh img");
-	foxkeh.setAttribute("class", "rotation");
+	foxkeh.setAttribute("class", "slidein");
 
 	foxkeh.addEventListener("animationend", endSlideinFoxkeh);
 };
